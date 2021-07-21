@@ -1,5 +1,9 @@
 function reverseString(str) {
-  // type your code here
+  let newWord = "";
+  for (var i = str.length - 1; i >= 0; i--) {
+    newWord += str[i];
+  }
+  return newWord;
 }
 
 if (require.main === module) {
